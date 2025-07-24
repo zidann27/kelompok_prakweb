@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffdf9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: orange;
+  color: white;
+  padding: 15px;
+}
+
+nav table {
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #e67300;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"].btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: orange;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-link:hover {
+  background-color: #cc6600;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #ffe0b3;
+}
+
+footer {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
