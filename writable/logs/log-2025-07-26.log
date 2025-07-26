@@ -1,0 +1,153 @@
+ERROR - 2025-07-26 12:32:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_kampus', 3306, '', 0)
+#1 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\app\Controllers\Crud.php(13): CodeIgniter\BaseModel->findAll()
+#7 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Crud->index()
+#8 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#9 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\perkuliahan ...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\app\Controllers\Crud.php(13): CodeIgniter\BaseModel->findAll()
+#6 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Crud->index()
+#7 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#8 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\perkuliahan ...')
+#13 {main}
+CRITICAL - 2025-07-26 12:32:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: crud]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Crud.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Crud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\perkuliahan semet 4\\praktikum\\Webpro\\projek_prakweb\\32602300066_zidan-syarif\\public\\index.php')
+ERROR - 2025-07-26 12:32:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_kampus', 3306, '', 0)
+#1 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\app\Controllers\Buku.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Buku->index()
+#8 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#9 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\perkuliahan ...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\app\Controllers\Buku.php(17): CodeIgniter\BaseModel->findAll()
+#6 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Buku->index()
+#7 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\perkuliahan ...')
+#13 {main}
+CRITICAL - 2025-07-26 12:32:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: buku]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `buku`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Buku.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\perkuliahan semet 4\\praktikum\\Webpro\\projek_prakweb\\32602300066_zidan-syarif\\public\\index.php')
+ERROR - 2025-07-26 12:32:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_kampus', 3306, '', 0)
+#1 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\app\Controllers\Buku.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Buku->index()
+#8 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#9 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\perkuliahan ...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\app\Controllers\Buku.php(17): CodeIgniter\BaseModel->findAll()
+#6 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Buku->index()
+#7 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\perkuliahan semet 4\praktikum\Webpro\projek_prakweb\32602300066_zidan-syarif\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\perkuliahan ...')
+#13 {main}
+CRITICAL - 2025-07-26 12:32:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: buku]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `buku`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Buku.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\perkuliahan semet 4\\praktikum\\Webpro\\projek_prakweb\\32602300066_zidan-syarif\\public\\index.php')
